@@ -1,0 +1,65 @@
+body{
+  background-color:burlywood
+}
+
+h1{
+  color:black;
+  text-align: center;
+}
+
+.compbutton{
+  position: relative;
+   margin-left: auto;
+}
+.App{
+  background-color:white;
+  background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Yellow-Desk-Simple-Background-Image.jpg');
+  min-height:500px;
+  width:  400px;
+  margin: 40px auto;
+}
+
+#todo input{
+  background-color: transparent;
+  border: 0; 
+  color:black;
+  width: 200px;
+  height: 20px;
+  top: 20;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#todo input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+#todo input:focus{
+  outline: none;
+}
+#todo button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color:rgba(202, 156, 24, 1); 
+  cursor: pointer;
+}
+#todo button:focus{
+  outline: none;
+}
+
+.shade{
+  
+box-shadow:
+/* The top layer shadow */
+0 1px 1px rgba(0,0,0,0.15),
+/* The second layer */
+0 10px 0 -5px #eee,
+/* The second layer shadow */
+0 10px 1px -4px rgba(0,0,0,0.15),
+ /* The third layer */
+0 20px 0 -10px #eee,
+/* The third layer shadow */
+0 20px 1px -9px rgba(0,0,0,0.15);
+padding: 30px;
+}
